@@ -22,6 +22,6 @@ This would be a common mistake;
 "Test log 2\nNew log!">>log;
 stream<<log;
 ```
-With the wrong code above, we've passed the second log (or list of logs that are seperated with \n character) to our stream.
+With the wrong code above, we've only passed the second log (or list of logs that are seperated with \n character) to our stream.
 
 Please be aware about this.
